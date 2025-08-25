@@ -4,6 +4,7 @@
 import { personal, summary } from "@/lib/data";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/motion";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
           Portfolio
         </p>
         <h1 className="text-4xl font-bold sm:text-5xl">
-          Hi, I'm{" "}
+          Hi, I am{" "}
           <span className="underline decoration-wavy decoration-2 underline-offset-4">
             {personal.name}
           </span>
@@ -59,9 +60,11 @@ export default function Hero() {
       >
         <div className="h-48 w-48 overflow-hidden rounded-3xl border sm:h-64 sm:w-64">
           {/* Replace with your photo in /public/profile.jpg */}
-          <img
-            src="profile.png"
+          <Image
+            src="/profile.png"
             alt="Profile"
+            width={100}
+            height={100}
             className="h-full w-full object-cover"
           />
         </div>
