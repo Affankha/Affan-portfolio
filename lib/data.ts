@@ -10,9 +10,7 @@ export const personal = {
   resumeUrl: "/Affan-Khan-Resume.pdf"
 };
 
-export const summary = `Full Stack Developer experienced with MERN & Next.js.
-Built production-grade web apps during internship at Moksha Solutions, handling frontend (React, Tailwind)
-and backend (Node.js, MongoDB), plus deployments and animations.`;
+export const summary = `Full Stack Developer experienced with MERN & Next.js. Built production-grade web apps, handling frontend (React, Tailwind) and backend (Node.js, MongoDB), along with deployments and animations.`;
 
 export const experience = [
   {
@@ -46,13 +44,39 @@ export const projects = [
     stack: ["GSAP", "Next.js", "Postgres", "MERN"],
     description: "Photography booking platform for weddings and special events.",
     live: "https://sai-photo-graphy.vercel.app/"
-  }
+  },
+  {
+    name: "Hijr (Dr. Job portal)",
+    stack: ["GSAP", "Next.js", "MongoDB", "MERN"],
+    description: "A job portal for medical students. like nurse, Dr, ward Boy, surgen, etc",
+    live: "https://www.hijr.in/"
+  },
+  {
+    name: "JBIM (Jay Bhavani Institute of Management",
+    stack: ["GSAP", "Next.js", "MongoDB", "MERN"],
+    description: "JBIM is a college website, this college is located at Taluka Badnapur, Jalna",
+    live: "https://www.jbim.in/"
+  },
 ];
 
 export const skills = [
-  "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express",
-  "MongoDB", "SQL", "REST API", "Tailwind CSS", "Bootstrap", "Git", "GitHub",
-  "Linux", "MySQL", "Figma", "GSAP"
+  { name: "HTML", link: "/html-logo.png" },
+  { name: "Css", link: "/css-logo.png" },
+  { name: "JavaScript", link: "/javascript-logo.png" },
+  { name: "TypeScript", link: "/typescript-logo.png" },
+  { name: "React.js", link: "/react-logo.png" },
+  { name: "Next.js", link: "/nextjs-logo.png" },
+  { name: "Node.js", link: "/nodejs-logo.png"},
+  { name: "Express", link: "/expressjs-logo.png" },
+  { name: "MongoDB", link: "/mongodb-logo.png" },
+  { name: "MySQL", link: "/mysql-logo.png" },
+  { name: "REST API", link: "/restapi-logo.png"},
+  { name: "Bootstrap", link: "/bootstrap-logo.png"},
+  { name: "Tailwind", link: "/tailwind-logo.png" },
+  { name: "Git & GitHub", link: "/git-github-logo.png"},
+  { name: "Figma", link: "/figma-logo.png"},
+  { name: "GSAP", link: "/gsap-logo.png"},
+
 ];
 
 export const education = [
